@@ -8,6 +8,13 @@ $body-font: 'sorts-mill-goudy';
 $body-font-italic: 'sorts-mill-goudy-italic';
 $body-font-size: 1.1em;
 
+$blog-title-font: 'nevis';
+$blog-title-font-size: 2.3em;
+$blog-title-text-transform: uppercase;
+
+$blog-subtitle-font: 'calluna-regular';
+$blog-subtitle-font-size: 1.4em;
+
 $subheadings-align: left;
 $subheading-font-size: 1.1em;
 $subheading-font-weight: bold;
@@ -23,6 +30,9 @@ $post-title-font-style: normal;
 $post-title-line-height: 1.3em;
 $post-title-align: center;
 
+$blockquote-font-family: 'sorts-mill-goudy-italic';
+$blockquote-font-size: 1em;
+
 /* Layout */
 
 /* Width of the content area */
@@ -31,3 +41,7 @@ $content-width: 45%;
 /* Space between the date and the post */
 $post-content-top-space: 3em;
 /* TODO Remove date */
+
+/* Weight of the line at the very top of the page */
+$top-line-weight: 8px;     
+

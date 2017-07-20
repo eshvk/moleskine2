@@ -2,8 +2,11 @@
 @import "typography";
 @import "variables";
 body {
+    margin: 0;
+    padding: 0;
     font-family: $body-font;
     font-size: $body-font-size;
+    border-top: $top-line-weight solid $black;
     color: $black;
 }
 
@@ -35,11 +38,28 @@ h2 {
         }
 }
 
+/* Index */
+.index {
+    text-align: center;
+    ul {
+        list-style-type: none;
+    }
+}
 
 /* The main blog header */
 
 header {
     text-align: center;
+    .title {
+        font-family: $blog-title-font;
+        font-size: $blog-title-font-size;
+        text-transform: $blog-title-text-transform;
+        }
+    .subtitle {
+        font-family: $blog-subtitle-font;
+        font-size: $blog-subtitle-font-size;
+        }
+    border-bottom: 1px solid $light-gray;
     a {
         color: $black;
         text-decoration: none;
@@ -59,7 +79,13 @@ a {
     }
 }
 
+blockquote {
+    font-family: $blockquote-font-family;
+    font-size: $blockquote-font-size;
+}
+
 article {
+    padding: 0;
 	font-size: $post-font-size;
 	line-height: $post-font-line-height;
 	text-align: $post-align;
